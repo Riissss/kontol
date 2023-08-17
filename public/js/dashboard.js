@@ -33,7 +33,7 @@ load_quote();
 // Visitor
 function getvisitor() {
 	var xhr = new XMLHttpRequest();
-	var url = "https://api.countapi.xyz/hit/api-alphabot.herokuapp.com/visits";
+	var url = "https://ohmyriiss28-api-fd2969f3168b.herokuapp.com/";
 	xhr.onloadend = function () {
 		data = JSON.parse(this.responseText);
 		document.getElementById("visits").textContent = data.value;
